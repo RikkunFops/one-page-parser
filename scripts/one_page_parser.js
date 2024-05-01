@@ -271,7 +271,8 @@ class OnePageParserForm extends FormApplication {
     }
 
     async updateScene(formData) {
-        const texture = await loader.fromURL(formData.img);
+        
+        const texture = await texture.fromURL(formData.img);
 
         let info = await JSON.parse(formData.json);
         let map = new MatrixMap();
