@@ -4,7 +4,7 @@
     "title": "One Page Parser",
     "description": "Import instant scenes from One Page Dungeon",
     "author": "Tarkan Al-Kazily",
-    "authors": [ { "name": "Tarkan Al-Kazily"} ],
+    "authors": [ { "name": "Tarkan Al-Kazily"}, { "name": "RikkunFops" } ],
     "version": "0.6.0",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion" : "10",
@@ -14,9 +14,9 @@
     ],
     "compatibility": {
         "minimum": "0.8.6",
-        "verified": "10"
+        "verified": "11"
     },
-    "url": "https://github.com/TarkanAl-Kazily/one-page-parser",
-    "manifest": "https://github.com/TarkanAl-Kazily/one-page-parser/releases/download/v0.6.0/module.json",
-    "download": "https://github.com/TarkanAl-Kazily/one-page-parser/archive/refs/tags/v0.6.0.zip"
+    "url": "https://github.com/RikkunFops/one-page-parser",
+    "manifest": "https://github.com/RikkunFops/one-page-parser/blob/main/module.json",
+    "download": "https://github.com/RikkunFops/one-page-parser/archive/refs/heads/main.zip"
 }

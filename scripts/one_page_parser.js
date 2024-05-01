@@ -271,21 +271,23 @@ class OnePageParserForm extends FormApplication {
     }
 
     async updateScene(formData) {
-        const loader = new TextureLoader();
-        const texture = await loader.loadTexture(formData.img);
+        const texture = await loader.fromURL(formData.img);
 
         let info = await JSON.parse(formData.json);
         let map = new MatrixMap();
 
         info["rects"].forEach(r => map.addRect(r));
+        const baseTexture = texture.baseTexture;
+        const height = baseTexture.height;
+        const width = baseTexture.width;
 
         try {
             const newScene = await Scene.create({
                 name: formData.name == "" ? info["title"]: formData.name,
                 grid: formData.grid,
                 img: formData.img,
-                height: texture.height,
-                width: texture.width,
+                height: height,
+                width: width,
                 padding: 0,
                 fogExploration: true,
                 tokenVision: true,
