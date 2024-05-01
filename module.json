@@ -17,6 +17,6 @@
         "verified": "11"
     },
     "url": "https://github.com/RikkunFops/one-page-parser",
-    "manifest": "https://github.com/RikkunFops/one-page-parser/blob/main/module.json",
-    "download": "https://github.com/RikkunFops/one-page-parser/archive/refs/heads/main.zip"
+    "manifest": "https://github.com/RikkunFops/one-page-parser/releases/download/Temp/module.json",
+    "download": "https://github.com/RikkunFops/one-page-parser/archive/refs/tags/Temp.zip"
 }
